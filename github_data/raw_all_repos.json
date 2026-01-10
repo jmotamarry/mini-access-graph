@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1001,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxMDAx",
+    "name": "acme-frontend",
+    "full_name": "acme-corp/acme-frontend",
+    "owner": {
+      "login": "acme-corp",
+      "id": 1,
+      "node_id": "MDQ6VXNlcjE=",
+      "avatar_url": "https://github.com/images/error/acme_happy.gif",
+      "url": "https://api.github.com/users/acme-corp",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/acme-corp/acme-frontend",
+    "description": "Public facing dashboard. Low sensitivity.",
+    "fork": false,
+    "url": "https://api.github.com/repos/acme-corp/acme-frontend",
+    "created_at": "2020-01-01T10:00:00Z",
+    "updated_at": "2023-10-25T14:30:00Z",
+    "pushed_at": "2023-10-25T14:00:00Z",
+    "homepage": "https://acme.com",
+    "size": 5000,
+    "stargazers_count": 120,
+    "watchers_count": 120,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "has_downloads": true,
+    "archived": false,
+    "disabled": false,
+    "visibility": "public",
+    "default_branch": "main",
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": true,
+      "pull": true
+    },
+    "security_and_analysis": {
+      "secret_scanning": {
+        "status": "disabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "disabled"
+      }
+    }
+  },
+  {
+    "id": 1002,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxMDAy",
+    "name": "acme-payments-backend",
+    "full_name": "acme-corp/acme-payments-backend",
+    "owner": {
+      "login": "acme-corp",
+      "id": 1,
+      "node_id": "MDQ6VXNlcjE=",
+      "avatar_url": "https://github.com/images/error/acme_happy.gif",
+      "url": "https://api.github.com/users/acme-corp",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": true,
+    "html_url": "https://github.com/acme-corp/acme-payments-backend",
+    "description": "CRITICAL: Payment processing logic. Contains PII.",
+    "fork": false,
+    "url": "https://api.github.com/repos/acme-corp/acme-payments-backend",
+    "created_at": "2020-02-15T09:00:00Z",
+    "updated_at": "2023-10-26T11:00:00Z",
+    "pushed_at": "2023-10-26T10:55:00Z",
+    "homepage": null,
+    "size": 12000,
+    "stargazers_count": 5,
+    "watchers_count": 5,
+    "language": "Go",
+    "has_issues": true,
+    "has_projects": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_downloads": false,
+    "archived": false,
+    "disabled": false,
+    "visibility": "private",
+    "default_branch": "main",
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "security_and_analysis": {
+      "advanced_security": {
+        "status": "enabled"
+      },
+      "secret_scanning": {
+        "status": "enabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "enabled"
+      }
+    }
+  }
+]

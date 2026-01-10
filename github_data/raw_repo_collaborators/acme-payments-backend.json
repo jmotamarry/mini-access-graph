@@ -1,0 +1,50 @@
+[
+  {
+    "login": "alice-engineer",
+    "id": 101,
+    "node_id": "MDQ6VXNlcjEwMQ==",
+    "avatar_url": "https://github.com/images/error/alice_happy.gif",
+    "type": "User",
+    "site_admin": false,
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "role_name": "write"
+  },
+  {
+    "login": "contractor-bob",
+    "id": 103,
+    "node_id": "MDQ6VXNlcjEwMw==",
+    "avatar_url": "https://github.com/images/error/bob_happy.gif",
+    "type": "User",
+    "site_admin": false,
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": true,
+      "pull": true
+    },
+    "role_name": "read"
+  },
+  {
+    "login": "ci-deploy-bot",
+    "id": 102,
+    "node_id": "MDQ6VXNlcjEwMg==",
+    "avatar_url": "https://github.com/images/error/bot_happy.gif",
+    "type": "Bot",
+    "site_admin": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    },
+    "role_name": "admin"
+  }
+]
