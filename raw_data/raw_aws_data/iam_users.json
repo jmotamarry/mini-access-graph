@@ -1,0 +1,21 @@
+[
+  {
+    "UserName": "alice-aws",
+    "UserId": "AIDA123456789",
+    "Arn": "arn:aws:iam::123456789012:user/alice-aws",
+    "CreateDate": "2023-01-01T10:00:00Z",
+    "Tags": [
+      {
+        "Key": "department",
+        "Value": "engineering"
+      }
+    ]
+  },
+  {
+    "UserName": "bob-contractor",
+    "UserId": "AIDA987654321",
+    "Arn": "arn:aws:iam::123456789012:user/bob-contractor",
+    "CreateDate": "2023-06-15T10:00:00Z",
+    "Tags": []
+  }
+]

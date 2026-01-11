@@ -1,0 +1,16 @@
+[
+  {
+    "human_email": "alice@acme.com",
+    "mappings": {
+      "github_login": "alice-engineer",
+      "aws_username": "alice-aws"
+    }
+  },
+  {
+    "human_email": "bob@agency.com",
+    "mappings": {
+      "github_login": "contractor-bob",
+      "aws_username": "bob-contractor"
+    }
+  }
+]

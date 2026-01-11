@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "acme-prod-data",
+    "CreationDate": "2020-10-22T00:00:00Z",
+    "Region": "us-east-1",
+    "Policy": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Principal": {
+            "AWS": "arn:aws:iam::123456789012:user/alice-aws"
+          },
+          "Action": "s3:*",
+          "Resource": "arn:aws:s3:::acme-prod-data/*"
+        },
+        {
+          "Effect": "Allow",
+          "Principal": {
+            "AWS": "arn:aws:iam::123456789012:user/bob-contractor"
+          },
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::acme-prod-data/*"
+        }
+      ]
+    }
+  }
+]
